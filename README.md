@@ -1,1 +1,1 @@
-# Stagiu-Practica-App
+# Stagiu-Practica
