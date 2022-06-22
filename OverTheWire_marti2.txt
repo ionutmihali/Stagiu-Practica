@@ -63,7 +63,7 @@ Level 13
 	mv data5.bin data6.tar
 	tar -xf data6.tar
 	mv data6.bin data7.bz
-	bzip2 -d data7.bz
+	bzip2 -d data7.bz 
 	mv data7 data8.tar
 	tar -xf data8.tar
 	mv data8.bin data9.gz
