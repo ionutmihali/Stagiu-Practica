@@ -258,8 +258,8 @@ do
 done
 -analizand acest script, putem vedea ca orice este salvat in /var/spool/bandit24 va fi sters ori de cate ori este rulat de catre bandit23, dupa 60 de secunde
 -trebuie sa scriem scriptul pestru aflarea parolei intr-o noua locatie, folosindu-ne de /var/spool/bandit24
-	mkdir /tmp/rand
-	cd /tmp/rand
+	mkdir /tmp/b23
+	cd /tmp/b23
 	vim pass.sh
 #!/bin/bash
 cat /etc/bandit_pass/bandit24 > /tmp/b23/password
