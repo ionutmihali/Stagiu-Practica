@@ -1,0 +1,445 @@
+**picoCTF
+
+*General Skills
+1. Obedient cat
+->picoCTF{s4n1ty_v3r1f13d_f28ac910}
+
+2. Python Wrangling
+python3 ende.py -d flag.txt.en + adaugarea parolei din fisierul pw.txt
+->picoCTF{4p0110_1n_7h3_h0us3_6008014f}
+
+3. Wave a flag
+cat warm | egrep -ow "picoCTF{.+}"
+->picoCTF{b1scu1ts_4nd_gr4vy_d6969390}
+
+4. Nice netcat
+Realizarea unui fisier python pentru transformarea ASCII-caracter:
+num.py:
+num = [112, 105,99,111, 67, 84,70, 123, 103,48,48,100, 95,107,49,116,116,121,33,95,110, 49,99,51,95,107, 49,116, 116,121,33,95,53,102, 98,53,101, 53,49,100, 125,10 ]
+flag = ""
+for i in num:
+	flag +=chr(i)
+print(flag)
+
+->picoCTF{g00d_k1tty!_n1c3_k1tty!_5fb5e51d}
+
+5. Static ain't always noise
+chmod u+x ltdis.sh
+./ltdis.sh static
+cat static.ltdis.strings.txt | egrep -o "picoCTF{.+}" 
+->picoCTF{d15a5m_t34s3r_98d35619}
+
+6. Tab, Tab, Attack
+Dupa dezarviharea arhivei, m-am mutat dintr-un director in altul cu ajutorul comenzii cd, iar cand am ajuns la un fisier, l-am executat si am optinut:
+->picoCTF{l3v3l_up!_t4k3_4_r35t!_f3553887}
+
+7. Magikarp Ground Mission
+ssh ctf-player@venus.picoctf.net -p 50713 -conectarea la server, folosind parola data
+ls
+cat 1of3.flag.txt ->picoCTF{xxsh_
+cat instructions-to-2of3.txt ->Next, go to the root of all things, more succinctly `/`
+ls -a
+cat 2of3.flag.txt ->0ut_0f_\/\/4t3r_
+ls -a
+cat 3of3.flag.txt ->5190b070}
+->picoCTF{xxsh_0ut_0f_\/\/4t3r_1118a9a4}
+
+8. Lets Warm Up
+hexadecimal: 0x70
+ASCII: p
+->picoCTF{p}
+
+9. Warmed Up
+base 16: 0x3D
+base 10: 3*16+13*1=61
+->picoCTF{61}
+
+10. 2Warm
+base 10: 42
+base 2: 101010
+->picoCF{101010}
+
+11. what's a net cat?
+nc jupiter.challenges.picoctf.org 25103
+You're on your way to becoming the net cat master
+->picoCTF{nEtCat_Mast3ry_d0c64587}
+
+12. strings it
+strings ./Downloads/strings | egrep pico
+->picoCTF{5tRIng5_1T_d66c7bb7}
+
+13. Bases
+echo "bDNhcm5fdGgzX3IwcDM1" | base64 -d
+decodificarea: l3arn_th3_r0p35
+->picoCTF{l3arn_th3_r0p35}
+
+14. Fisrt Grep
+grep pico ./Downloads/file
+->picoCTF{grep_is_good_to_find_things_f77e0797}
+
+15. Codebook
+python3 code.py
+->picoCTF{c0d3b00k_455157_197a982c}
+
+16. convertme.py
+python3 convertme.py 
+If 71 is in decimal base, what is it in binary base?
+Answer: 1000111
+That is correct! Here's your flag:
+->picoCTF{4ll_y0ur_b4535_9c3b7d4d}
+
+17. fixme1.py
+gedit fixme1.py: stergerea spatiilor din fata comenzii print
+python3 fixme1.py 
+That is correct! Here's your flag:
+->picoCTF{1nd3nt1ty_cr1515_182342f7}
+
+18. fixme2.py
+gedit fixme2.py: in conditia if este nevoie de 2 "=" 
+python3 fixme2.py 
+That is correct! Here's your flag: 
+->picoCTF{3qu4l1ty_n0t_4551gnm3nt_e8814d03}
+
+19. Glitch Cat
+-in urma rularii comenzii nc saturn.picoctf.net 51109 am obtinut:
+'picoCTF{gl17ch_m3_n07_' + chr(0x62) + chr(0x64) + chr(0x61) + chr(0x36) + chr(0x38) + chr(0x66) + chr(0x37) + chr(0x35) + '}'
+chr(0x62)=b
+chr(0x64)=d
+chr(0x61)=a
+chr(0x36)=6
+chr(0x38)=8
+chr(0x66)=f
+chr(0x37)=7
+chr(0x35)=5
+->picoCTF{gl17ch_m3_n07_bda68f75}
+
+20. HashingJobApp
+'construction workers' ->00ae932c1c12ee89427c3efeeecf9533
+'Hollywood' ->1ac441036f927b9815ba1137464ee064
+'carnival workers' ->d3818fc79b44a9f961c502fb3a9bd42d
+->picoCTF{4ppl1c4710n_r3c31v3d_3eb82b73}
+
+21. PW Crack 1
+gedit level1.py ->pentru a citi parola ->1e1a
+python3 level1.py
+Please enter correct password for flag: 1e1a
+Welcome back... your flag, user:
+->picoCTF{545h_r1ng1ng_fa343060}
+
+22. PW Crack 2
+gedit level2.py ->chr(0x33) + chr(0x39) + chr(0x63) + chr(0x65)=39ce
+python3 level2.py
+Please enter correct password for flag: 39ce
+Welcome back... your flag, user:
+->picoCTF{tr45h_51ng1ng_502ec42e}
+
+23. PW Crack 3
+gedit level3.py ->o lista de parole posibile ["6997", "3ac8", "f0ac", "4b17", "ec27", "4e66", "865e"] ->prin incercari: 4b17
+python3 level3.py
+Please enter correct password for flag: 4b17
+Welcome back... your flag, user:
+->picoCTF{m45h_fl1ng1ng_2b072a90}
+
+24, PW Crack 4
+-in fisierul level4.py am modificat functia def level_4_pw_check astfel incat parolele sa fie verificate automat, fara a fi introduse de utilizator. Din cauza numarului mare de parole, verificarea manuala ar fi durat foarte mult.
+Noua functie:
+def level_4_pw_check():
+    #user_pw = input("Please enter correct password for flag: ")
+	pw_list = ["158f", "1655", "d21e", "4966", "ed69", "1010", "dded", "844c", "40ab", "a948", "156c", "ab7f", "4a5f", "e38c", "ba12", "f7fd", "d780", "4f4d", "5ba1", "96c5", "55b9", "8a67", "d32b", "aa7a", "514b", "e4e1", "1230", "cd19", "d6dd", "b01f", "fd2f", "7587", "86c2", "d7b8", "55a2", "b77c", "7ffe", "4420", "e0ee", "d8fb", "d748", "b0fe", "2a37", "a638", "52db", "51b7", "5526", "40ed", "5356", "6ad4", "2ddd", "177d", "84ae", "cf88", "97a3", "17ad", "7124", "eff2", "e373", "c974", "7689", "b8b2", "e899", "d042", "47d9", "cca9", "ab2a", "de77", "4654", "9ecb", "ab6e", "bb8e", "b76b", "d661", "63f8", "7095", "567e", "b837", "2b80", "ad4f", "c514", "ffa4", "fc37", "7254", "b48b", "d38b", "a02b", "ec6c", "eacc", "8b70", "b03e", "1b36", "81ff", "77e4", "dbe6", "59d9", "fd6a", "5653", "8b95", "d0e5"]
+	
+	for i in pw_list:
+	
+		user_pw_hash = hash_pw(i)
+	
+		if( user_pw_hash == correct_pw_hash ):
+			print("Welcome back... your flag, user:")
+			decryption = str_xor(flag_enc.decode(), i)
+			print(decryption)
+			return	
+	print("That password is incorrect")
+level_4_pw_check()
+
+python3 level4.py
+Welcome back... your flag, user:
+->picoCTF{fl45h_5pr1ng1ng_cf341ff1}
+
+25. PW Crack 5
+Modificarile aduse fisierului level5.py:
+Pentru acces la fisierul dictionary.txt si citirea parolelor:
+dictionary = open('dictionary.txt', 'rb').readlines() 
+
+Pentru verificarea fiecarei parole, automat, transformare baiti in string si eliminare spatii:
+strip()- eliminarea spatiilor de la inceput si final de string
+def level_5_pw_check():
+    # user_pw = input("Please enter correct password for flag: ")
+    for user_pw in dictionary:
+        user_pw = user_pw.strip().decode("utf-8")  
+        user_pw_hash = hash_pw(user_pw)
+        
+        if( user_pw_hash == correct_pw_hash ):
+            print("Welcome back... your flag, user:")
+            decryption = str_xor(flag_enc.decode(), user_pw)
+            print(decryption)
+            return
+    print("All passwords are incorrect")
+
+python3 level5.py
+Welcome back... your flag, user:
+->picoCTF{h45h_sl1ng1ng_40f26f81}
+
+26. runme.py
+wget https://artifacts.picoctf.net/c/86/runme.py
+wget- download script in webshell
+python3 runme.py
+->picoCTF{run_s4n1ty_run}
+
+27. Serpentine
+wget https://artifacts.picoctf.net/c/93/serpentine.py
+python3 serpentine.py
+-daca selectez din meniu optiunea b (Print flag), apare o eroare care imi spune sa verific codul sursa.
+In fisierul serpentine.py, in momentul alegerii optiuni b din meniu, am inlocuit afisarea mesajului de eroare, cu apelul functiei print_flag, care genereaza flag-ul necesar.
+->picoCTF{7h3_r04d_l355_7r4v3l3d_ae0b80bd}
+
+28. First Find
+unzip files.zip
+find files -name 'uber-secret.txt' ->files/adequate_books/more_books/.secret/deeper_secrets/deepest_secrets/uber-secret.txt
+cat files/adequate_books/more_books/.secret/deeper_secrets/deepest_secrets/uber-secret.txt
+->picoCTF{f1nd_15_f457_ab443fd1}
+
+29. Big Zip
+unzip big-zip-files.zip
+find big-zip-files/ -type f -exec grep 'pico' {} \; ->information on the record will last a billion years. Genes and brains and books encode picoCTF{gr3p_15_m4g1c_ef8790dc}
+->picoCTF{gr3p_15_m4g1c_ef8790dc}
+
+30. Based
+nc jupiter.challenges.picoctf.org 15130
+01101100 01101001 01100111 01101000 01110100=light (binar-text)
+164 145 163 164=test (octal-text)
+636f6c6f7261646f=colorado (hexazecimal-text)
+You've beaten the challenge
+Flag:->picoCTF{learning_about_converting_values_02167de8}
+
+31. plumbing
+nc jupiter.challenges.picoctf.org 14291 | egrep "pico"
+->picoCTF{digital_plumb3r_ea8bfec7}
+
+32. mus1c
+cat lyrics.txt
+-folosind un calculator online de limbaj Rockstar, am tradus versurile in:
+114
+114
+114
+111
+99
+107
+110
+114
+110
+48
+49
+49
+51
+114
+-voi scrie un script pentru transportamrea acestor valori in caractere ASCII, ly.py:
+ascii = [ 114, 114, 114, 111, 99, 107, 110, 114, 110, 48, 49, 49, 51, 114 ]
+for c in ascii:
+    print(chr(int(c)), end='')
+-in urma rularii, am obtinut: rrrocknrn0113r
+->picoCTF{rrrocknrn0113r}
+
+33. flag_shop
+-In fiserul store.c, linia 42, se executa singura operatie asupra variabilei account_balance, deci in momentul rularii trebuie introdusa o valoare foarte mare la interogarea de cantitate de la optiunea 1 a submeniului Buy Flags, pentru a putea actualiza balanta.
+- dupa ce balanta este actualizata si avem un sold mai mare de 100000, putem sa cumparam 1337 Flag, care este flagul cautat
+YOUR FLAG IS:->picoCTF{m0n3y_bag5_68d16363}
+
+34. 1_wanna_b3_a_r0ck5tar
+-translatam fisierul lyrics.txt in limbaj Python
+rockstar-py --output rockstar.py -i ./Downloads/lyrics1.txt
+cat rockstar.py 
+
+Rocknroll = True
+Silence = False
+a_guitar = 19
+Tommy = 44
+Music = 19
+the_music = input()
+if int(the_music) == a_guitar:
+    print("Keep on rocking!")
+    the_rhythm = input()
+    if int(the_rhythm) - Music == 0:
+        Tommy = 66
+        print(Tommy)
+        Music = 79
+        Jamming = 78
+        print(Music)
+        print(Jamming)
+        Tommy = 74
+        print(Tommy)
+        #They are dazzled audiences
+        print(it)
+        Rock = 86
+        print(it)
+        Tommy = 73
+        print(it)
+        #break
+        print("Bring on the rock!")
+        else:
+        print("That ain't it, Chief")
+        #break
+
+-continutul acestuia il vom introduce in Rockstar compiler si vom obtine:
+Keep on rocking!
+66
+79
+78
+74
+79
+86
+73
+
+-cream un script pentru translatarea acestor valori in caractere ASCII:
+ascii = [ 66, 79, 78, 74, 79, 86, 73 ]
+for c in ascii:
+    print(chr(int(c)), end='')
+
+python3 ly.py
+BONJOVI
+->picoCTF{BONJOVI}
+
+
+
+*Cryptography
+1. Mod 26
+echo "cvpbPGS{arkg_gvzr_V'yy_gel_2_ebhaqf_bs_ebg13_nSkgmDJE}" | tr [n-za-mN-ZA-M] [a-zA-Z]
+
+->picoCTF{next_time_I'll_try_2_rounds_of_rot13_aFxtzQWR}
+
+2. The numbers
+-am scris un script care sa transforme numerele date in corespondentul din alfabet, dupa criteriu: litera=alfabet(numar)
+-continutul scriptului:
+#!/bin/bash
+
+numbers=(16 9 3 15 3 20 6 \{ 20 8 5 14 21 13 2 5 18 19 13 1 19 15 14 \})
+letters=(A B C D E F G H I J K L M N O P Q R S T U V W X Y Z)
+
+for i in ${numbers[*]}
+do
+	if [[ $i == \} || $i == \{ ]]
+	then
+		echo $i >> aux.txt
+	else
+		echo ${letters[$i-1]} >> aux.txt
+	fi
+done
+
+cat aux.txt | tr -d "\n"
+rm aux.txt
+->16 9 3 15 3 20 6 \{ 20 8 5 14 21 13 2 5 18 19 13 1 19 15 14 \}
+->PICOCTF{THENUMBERSMASON}
+
+*Forensics
+1. information
+exiftool cat.jpg ->detalii
+-alegem campul Licence ->cGljb0NURnt0aGVfbTN0YWRhdGFfMXNfbW9kaWZpZWR9
+ecgo "cGljb0NURnt0aGVfbTN0YWRhdGFfMXNfbW9kaWZpZWR9" | base64 -d ->decodificare
+->picoCTF{the_m3tadata_1s_modified}
+
+*Web Exploitation
+1. Insp3ct0r
+	Clieck dreapta + View Page Source
+-putem observa ca avem o parte din cheie: picoCTF{tru3_
+-in head sunt mentionate 2 fisiere, le vom verifica: mycss.css, myjs.js
+-in mycss.css am gasit: t3ct1ve_0r_ju5t
+-in myjs.js: _lucky?f10be399}
+->picoCTF{tru3_d3t3ct1ve_0r_ju5t_lucky?f10be399}
+
+2. Scavenger Hunt
+-repetam actiunile de la exercitiul 1: picoCTF{t
+-in mycss.css: CSS makes the page look nice, and yes, it also has part of the flag. Here's part 2: h4ts_4_l0
+-in myjs.js nu se regaseste nimic legat de flag, de aceasta data, dar regasim mesajul: How can I keep Google from indexing my website?
+-vom verifica robots.txt: Part 3: t_0f_pl4c; I think this is an apache server... can you Access the next flag?
+-cu ajutorul indiciului de la partea a 3a, vom adauga URL-ului /.htaccess: 3s_2_lO0k si urmatorul indiciu:  I love making websites on my Mac, I can Store a lot of information there.
+-vom accesa URL-ul agaugam /.DS_Store(se regasesc informatii despre confirgurarea dekstopului): Congrats! You completed the scavenger hunt. Part 5: _d375c750}
+->picoCTF{th4ts_4_l0t_0f_pl4c3s_2_lO0k_d375c750}
+
+3. where are the robots
+-URL-ului primit din aplicatie, adaugam /robots.txt pentru a afla informatii despre roboti:
+User-agent: *
+Disallow: /8028f.html
+-mergem mai departe si adaugam /8028f.html:
+Guess you found the robots
+->picoCTF{ca1cu1at1ng_Mach1n3s_8028f}
+
+4. Some Assembly Required 1
+-dupa accesarea URL-ului
+-am accesat View Page Source
+-am accesat fisierul .js si am obtinut niste declarari de variabile
+-am observat existenta unei noi cai: ./JIFxzHyW8W si am accesat-o
+-a fost deschis un fisier l afinalul caruia se afla cheia
+->picoCTF{c733fda95299a16681f37b3ff09f901c} 
+
+5. logon
+-inspectam pagina si observam ca nu avem informatii de care sa ne putem folosi
+-incercam sa ne conectam cu credentialele picoCTF si primim mesajul "No flag for you"
+-apasam F12 si ni se deschide un meniu, alegem submeniul "Storage" si apoi "Cookies", unde observam un camp denumit "admin" care are valoarea False
+-schimbam valoare campului cu True si dam refresh
+-flagul este vizibil
+->picoCTF{th3_c0nsp1r4cy_l1v3s_6edb3f5f}
+
+6. dont-use-client-side
+-accesand View Page Source si apasand tasta F12, obtinem o serie de if-uri care par a contine flag-ul:
+if (checkpass.substring(0, split) == 'pico') {
+      if (checkpass.substring(split*6, split*7) == '723c') {
+        if (checkpass.substring(split, split*2) == 'CTF{') {
+         if (checkpass.substring(split*4, split*5) == 'ts_p') {
+          if (checkpass.substring(split*3, split*4) == 'lien') {
+            if (checkpass.substring(split*5, split*6) == 'lz_7') {
+              if (checkpass.substring(split*2, split*3) == 'no_c') {
+                if (checkpass.substring(split*7, split*8) == 'e}') {
+-ar trebui sa le punem in ordine:
+pico
+CTF{
+no_c
+lien
+ts_p
+lz_7
+723c
+e}
+->picoCTF{no_clients_plz_7723ce}
+
+7. It is my Birthday
+-am accesat URL-ul si pagina deschisa imi solicita 2 fisiere pdf
+-am cautat si obtinut 2 fisiere cu acelasi md5 hash: a si b
+-le-am transformat in pdf-uri
+-dupa incarcarea acestora, am fost redirectionat catre o noua pagina, care contine PHP, unde este vizibil flag-ul
+->picoCTF{c0ngr4ts_u_r_1nv1t3d_da36cc1b}
+
+8. login
+-View Page Source
+-accesam index.js
+-observam o conditie care ne indica ce s-ar intampla daca ar fi corecte credentialele: atob(t.p), unde p este parola si este: cGljb0NURns1M3J2M3JfNTNydjNyXzUzcnYzcl81M3J2M3JfNTNydjNyfQ
+-decodificam: echo "cGljb0NURns1M3J2M3JfNTNydjNyXzUzcnYzcl81M3J2M3JfNTNydjNyfQ" | base64 -d 
+->picoCTF{53rv3r_53rv3r_53rv3r_53rv3r_53rv3r}
+
+9. Includes
+-View Page Source
+-accesam style.css -> picoCTF{1nclu51v17y_1of2_
+-accesam script.js -> f7w_2of2_b8f4b022}
+->picoCTF{1nclu51v17y_1of2_f7w_2of2_b8f4b022}
+
+10. Inspect HTML
+-View Page Source
+->picoCTF{1n5p3t0r_0f_h7ml_fd5d57bd}
+
+11. Local Authority
+-View Page Source ->login.php ->secure.js
+-aici regasim credentialele
+-dupa introducerea credentialelor si conectare, obtinem flag-ul
+-> picoCTF{j5_15_7r4n5p4r3n7_b0c2c9cb}
+
+12. Search source
+-View Page Source ->css.style.css
+-CTRL+F pentru a cauta mai usor cuvantul "pico"
+->picoCTF{1nsp3ti0n_0f_w3bpag3s_8de925a7}
+
+13. 
