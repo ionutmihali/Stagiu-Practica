@@ -15,31 +15,35 @@ Am urmarit o serie de videoclipuri pentru instalarea macOS pe o masina virtuala:
 
 # Ziua 3- 16.06
 Am continuat cu incercarea de instalare a macOS si XCode.
-Deoarece detin un laptop am vechi, nu am reusit instalarea celor necesare pentru tema initial aleasa si deja a trecut o perioada considerabila de timp, am decis sa schimb tema: CTF-uri.
+Deoarece detin un laptop mai vechi, nu am reusit instalarea celor necesare pentru tema initial aleasa si deja a trecut o perioada considerabila de timp, am decis sa schimb tema in: CTF-uri.
 
 # Ziua 4- 17.06
-Am lucrat de pe site-ul: - https://play.picoctf.org/practice?page=1&search=Hunt
+Am lucrat de pe site-ul: https://play.picoctf.org/practice?page=1&search=Hunt
 - Categorie: General Skills
 - Vizibil in documentul: picoCTF_vineri1.txt
 
-Dar si de pe site-ul: - https://overthewire.org/wargames/
+Dar si de pe site-ul: https://overthewire.org/wargames/
 - Categorie: Bandit
 - Vizibil in documentul: OverTheWire_vineri1.txt
 
 # Ziua 5- 20.06
-Am continuat lucrul pe picoCTF, categoriile: General Skills, Cryptography si Forensics.
+Am continuat lucrul pe picoCTF.org.
+- Categoriile: General Skills, Cryptography si Forensics.
 - Vizibil in documentul: picoCTF_luni2.txt
 
 # Ziua 6- 21.06
-Am continuat lucrul pe OverTheWire, categoria: Bandit.
+Am continuat lucrul pe OverTheWire.org.
+- Categoria: Bandit
 - Vizibil in documentul: OverTheWire_marti2.txt
 
 # Ziua 7- 22.06
-Am lucrat din alte 3 categorii disponibile pe OverTheWire: Natas, Leviathan si Krypto.
+Am continuat lucrul pe OverTheWire.org.
+- Categogiile: Natas, Leviathan si Krypto.
 - Vizibil in documentul: OverTheWire_miercuri2.txt
 
 # Ziua 8- 23.06
-Am continuat lucrul pe picoCTF,categoriile: Cryptography si Web Exploitation.
+Am continuat lucrul pe picoCTF.org.
+- Categoriile: Cryptography si Web Exploitation.
 - Vizibil in documentul: picoCTF_joi2.txt
 
 # Ziua 9- 24.06
