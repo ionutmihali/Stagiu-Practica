@@ -7,7 +7,7 @@ Vor fi incarcate documentele aferente fiecarei zi, astfel va fi vizibila evoluti
 Am vorbit despre ceea ce va urma sa facem in acest stagiu, teme de proiect posibile.
 
 # Ziua 2- 15.06
-Mi-am ales tema: Dezvoltare aplicatii iOS
+Mi-am ales tema: Dezvoltare aplicatii iOS.
 Am urmarit o serie de videoclipuri pentru instalarea macOS pe o masina virtuala:
 - https://youtu.be/TnFPb4caeng
 - https://youtu.be/SlH35WDOduA
