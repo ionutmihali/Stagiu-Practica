@@ -35,5 +35,3 @@ Dupa dezarviharea arhivei, m-am mutat dintr-un director in altul cu ajutorul com
 
 7.
 picoCTF{xxsh_0ut_0f_\/\/4t3r_1118a9a4}
-
-
