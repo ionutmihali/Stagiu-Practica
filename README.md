@@ -27,7 +27,7 @@ Dar si de pe site-ul: - https://overthewire.org/wargames/
 - Vizibil in documentul: OverTheWire_vineri1.txt
 
 # Ziua 5- 20.06
-Am continuat lucrul pe picoCTF, categoriile: General Skills, Cryptography si Forensics.
+Am continuat lucrul pe picoCTF, categoriile: - General Skills, - Cryptography si - Forensics.
 - Vizibil in documentul: picoCTF_luni2.txt
 
 # Ziua 6- 21.06
