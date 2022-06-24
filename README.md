@@ -20,31 +20,31 @@ Deoarece detin un laptop mai vechi, nu am reusit instalarea celor necesare pentr
 # Ziua 4- 17.06
 Am lucrat de pe site-ul: https://play.picoctf.org/practice?page=1&search=Hunt
 - Categorie: General Skills
-- Vizibil in documentul: picoCTF_vineri1.txt
+- Vizibil in documentul: picoCTF_vineri1.txt: https://github.com/ionutmihali/Stagiu-Practica/blob/main/picoCTF_vineri1.txt
 
 Dar si de pe site-ul: https://overthewire.org/wargames/
 - Categorie: Bandit
-- Vizibil in documentul: OverTheWire_vineri1.txt
+- Vizibil in documentul: OverTheWire_vineri1.txt: https://github.com/ionutmihali/Stagiu-Practica/blob/main/OverTheWire_vineri1.txt
 
 # Ziua 5- 20.06
 Am continuat lucrul pe picoCTF.org.
 - Categoriile: General Skills, Cryptography si Forensics.
-- Vizibil in documentul: picoCTF_luni2.txt
+- Vizibil in documentul: picoCTF_luni2.txt: https://github.com/ionutmihali/Stagiu-Practica/blob/main/picoCTF_luni2.txt
 
 # Ziua 6- 21.06
 Am continuat lucrul pe OverTheWire.org.
 - Categoria: Bandit
-- Vizibil in documentul: OverTheWire_marti2.txt
+- Vizibil in documentul: OverTheWire_marti2.txt: https://github.com/ionutmihali/Stagiu-Practica/blob/main/OverTheWire_marti2.txt
 
 # Ziua 7- 22.06
 Am continuat lucrul pe OverTheWire.org.
 - Categogiile: Natas, Leviathan si Krypto.
-- Vizibil in documentul: OverTheWire_miercuri2.txt
+- Vizibil in documentul: OverTheWire_miercuri2.txt: https://github.com/ionutmihali/Stagiu-Practica/blob/main/OverTheWire_miercuri2.txt
 
 # Ziua 8- 23.06
 Am continuat lucrul pe picoCTF.org.
 - Categoriile: Cryptography si Web Exploitation.
-- Vizibil in documentul: picoCTF_joi2.txt
+- Vizibil in documentul: picoCTF_joi2.txt: https://github.com/ionutmihali/Stagiu-Practica/blob/main/picoCTF_joi2.txt
 
 # Ziua 9- 24.06
 Am prezentat proiectul si am definitivat documentele explicative, disponibile pe acest site: https://github.com/ionutmihali/Stagiu-Practica 
