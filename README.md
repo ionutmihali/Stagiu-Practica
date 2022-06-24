@@ -26,7 +26,7 @@ Dar si de pe site-ul: https://overthewire.org/wargames/
 Categorie: Bandit
 Vizibil in documentul: OverTheWire_vineri1.txt
 
-#Ziua 5- 20.06
+# Ziua 5- 20.06
 Am continuat lucrul pe picoCTF, categoria: General Skills
 Vizibil in documentul: picoCTF_luni2.txt
 
