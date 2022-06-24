@@ -47,4 +47,4 @@ Am continuat lucrul pe picoCTF.org.
 - Vizibil in documentul: picoCTF_joi2.txt: https://github.com/ionutmihali/Stagiu-Practica/blob/main/picoCTF_joi2.txt
 
 # Ziua 9- 24.06
-Am prezentat proiectul si am definitivat documentele explicative, disponibile pe acest site: https://github.com/ionutmihali/Stagiu-Practica 
+Am prezentat proiectul si am definitivat documentele explicative, disponibile pe: https://github.com/ionutmihali/Stagiu-Practica 
